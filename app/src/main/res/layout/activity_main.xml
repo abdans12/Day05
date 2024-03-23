@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/namaapk"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:text="@string/muhammad_abdan_quiz_1"
+        android:textAlignment="center"
+        android:background="@drawable/background"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/konsumen_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaapk"
+        android:layout_marginTop="30dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/konsumen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nama_pelanggan" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/konsumen_layout"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gold"/>
+
+        <RadioButton
+            android:id="@+id/silver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/silver"/>
+
+        <RadioButton
+            android:id="@+id/biasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/biasa"/>
+
+    </RadioGroup>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/kodebrg_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radiogroup"
+        android:layout_marginTop="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/kodebrg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/kode_barang"
+            android:inputType="textCapCharacters" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/jumlahbrg_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kodebrg_layout"
+        android:layout_marginTop="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/jumlahbrg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/jumlah_barang"
+            android:inputType="number" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/proses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jumlahbrg_layout"
+        android:layout_marginTop="60dp"
+        android:text="@string/proses"
+        android:layout_marginStart="160dp" />
+
+</RelativeLayout>

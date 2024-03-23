@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Day05</string>
+    <string name="proses">Процесс</string>
+    <string name="jumlah_barang">Количество товара</string>
+    <string name="kode_barang">Код товара</string>
+    <string name="biasa">Обычный</string>
+    <string name="silver">Серебро</string>
+    <string name="gold">Золото</string>
+    <string name="nama_pelanggan">Имя клиента</string>
+    <string name="muhammad_abdan_quiz_1">Мухаммад Абдан Квиз 1</string>
+    <string name="bagikan">Поделиться</string>
+    <string name="nama_pelanggan_label">Имя клиента:</string>
+    <string name="kode_barang_label">Код товара:</string>
+    <string name="nama_barang_label">Название товара:</string>
+    <string name="harga_label">Цена:</string>
+    <string name="total_harga_label">Итоговая цена:</string>
+    <string name="diskon_harga_label">Скидка на цену:</string>
+    <string name="diskon_member_label">Скидка для участников:</string>
+    <string name="jumlah_bayar_label">Сумма к оплате:</string>
+</resources>

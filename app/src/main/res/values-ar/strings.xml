@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Day05</string>
+    <string name="proses">معالجة</string>
+    <string name="jumlah_barang">كمية السلع</string>
+    <string name="kode_barang">رمز السلعة</string>
+    <string name="biasa">عادي</string>
+    <string name="silver">فضي</string>
+    <string name="gold">ذهبي</string>
+    <string name="nama_pelanggan">اسم العميل</string>
+    <string name="muhammad_abdan_quiz_1">محمد عبدان كويز 1</string>
+    <string name="bagikan">مشاركة</string>
+    <string name="nama_pelanggan_label">اسم العميل:</string>
+    <string name="kode_barang_label">رمز السلعة:</string>
+    <string name="nama_barang_label">اسم السلعة:</string>
+    <string name="harga_label">السعر:</string>
+    <string name="total_harga_label">السعر الإجمالي:</string>
+    <string name="diskon_harga_label">سعر الخصم:</string>
+    <string name="diskon_member_label">خصم العضو:</string>
+    <string name="jumlah_bayar_label">مبلغ الدفع:</string>
+</resources>
